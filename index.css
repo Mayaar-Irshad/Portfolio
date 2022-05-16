@@ -58,20 +58,23 @@
     height: 100vh;
     scroll-snap-align: center;
   }
-  section h1,h2, .about-skip{
+  section h1,h2{
     font-size: 3.5rem;
   }
   section p{
     font-size:1.5rem;
+  }
+  .about-skip{
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: rgb(85, 80, 75);
   }
   
  .about-skip:hover {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
     perspective: 1000px;
-  }
-  .about-skip:active{
-     
+    cursor: pointer;
   }
   
   @keyframes shake {
