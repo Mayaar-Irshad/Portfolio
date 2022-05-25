@@ -1,5 +1,6 @@
 
 #body{
+    
     margin: 0;
     padding: 0;
     background: rgb(249, 231, 207);
@@ -94,4 +95,22 @@ section p{
     40%, 60% {
     transform: translate3d(2px, 0, 0);
     }
+}
+button{
+    color: #fff;
+    border-style: none;
+    background-color: #4A6CF7E6;
+    border: none;
+    height: 40px;
+    width: 150px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 20px;
+}
+button:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.367);
+}
+#resume-download-bttn{
+    text-decoration: none;
+    color: #fff;
 }
